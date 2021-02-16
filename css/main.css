@@ -67,3 +67,19 @@ body {
    line-height:30px;
    background: #fff;
 }
+
+/*Colori Sezioni*/
+
+#middle {
+    background: green;
+}
+
+#last {
+    background: yellow;
+}
+
+.full-section .text-title-last {
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
