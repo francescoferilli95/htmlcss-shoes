@@ -17,6 +17,7 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/*Section General*/
 
 .full-section {
     position: relative;
@@ -24,15 +25,45 @@ body {
     background: red;
 }
 
+/*Section Title general*/
+
 .full-section .text-title {
     font-size: 40px;
     text-align: center;
     color: yellow;
 }
 
+/*Section Content General*/
+
 .content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+}
+
+/*Navigation*/
+
+.navigation {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.navigation ul li {
+    float:left;
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   text-decoration: none;
+   text-align: center;
+   line-height:30px;
+   background: #fff;
 }
